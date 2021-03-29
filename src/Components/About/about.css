@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  text-align: center;
+  margin-top: -150px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 250px;
+}
+
+.con1 {
+  background-color: white;
+  box-shadow: 5px 3px 3px black;
+  height: 500px;
+}
+
+.con2 {
+  box-shadow: 5px 3px 3px black;
+  background-color: white;
+  height: 500px;
+}
+
+.con3 {
+  box-shadow: 5px 3px 3px black;
+  background-color: white;
+  height: 500px;
+}
+
+.logos {
+  margin-top: 45px;
+}

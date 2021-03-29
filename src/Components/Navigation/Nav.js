@@ -1,23 +1,21 @@
 import React from "react";
 import "./nav.css";
-import imageLogo from "./hand-shake.png";
-import { Link } from "react-router-dom";
 
-const Nav = () => {
+export const Nav = () => {
   return (
-    <header>
-      <img className="logo" src={imageLogo}></img>
+    <div>
       <nav>
-        <ul className="nav_links">
-          <Link to="/Teams">
-            <li>Teams</li>
-          </Link>
-          <Link to="/Players">
-            <li>Players</li>
-          </Link>
+        <label className="logo">Brunngard Design</label>
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 };
 
