@@ -3,17 +3,11 @@ import "./nav.css";
 
 export const Nav = () => {
   return (
-    <div>
+    <div className="logo-continer">
       <nav>
-        <label className="logo">Brunngard Design</label>
-        <ul>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
+        <label className="logo">
+          <a href="">Brunngard Design</a>
+        </label>
       </nav>
     </div>
   );

@@ -1,7 +1,10 @@
-import React, { useState, useEffect } from "react";
-import Nav from "./Components/Navigation/Nav";
+import React from "react";
+
 import About from "./Components/About/About";
 import Main from "./Components/Main/Main";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+
 import "./App.css";
 
 const App = () => {
@@ -12,6 +15,8 @@ const App = () => {
       </div>
       <div>
         <About />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: sticky;
 }
 
 nav {
@@ -11,6 +12,8 @@ nav {
   padding-bottom: 40px;
   height: 80px;
   width: 100%;
+  position: sticky;
+  top: 0px;
 }
 
 .logo {
@@ -21,6 +24,27 @@ nav {
   padding: 0 100px;
   font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  position: sticky;
+  top: 0px;
+}
+
+.logo-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+}
+
+.logo-container {
+  position: sticky;
+  top: 0px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #1aab8a;
 }
 
 nav ul {
@@ -44,4 +68,37 @@ nav ul li a:hover {
   color: white;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1555px) {
+  .logo {
+    text-transform: uppercase;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    text-transform: uppercase;
+    font-size: 32px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  nav ul {
+    text-align: center;
+    margin: 0px;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .logo {
+    text-transform: uppercase;
+    font-size: 27px;
+    padding: 0px;
+    margin-top: 50px;
+    border: none;
+  }
 }

@@ -7,20 +7,11 @@ export const Main = () => {
     <div className="background">
       <Nav />
       <div className="start-info">
-        <h1
-          className="font"
-          style={{
-            marginTop: "100px",
-            fontSize: "32px",
-            textDecoration: "underline",
-            color: "white",
-            textTransform: "uppercase",
-          }}
-        >
-          We make websites for you and your company!
-        </h1>
+        <h1 className="font">We make websites for you and your company!</h1>
         <div className="wrapper">
-          <button className="btn">Contact Us</button>
+          <a href="mailto:brunngard.emil@gmail.com">
+            "<button className="btn">Contact Us</button>
+          </a>
         </div>
       </div>
     </div>
